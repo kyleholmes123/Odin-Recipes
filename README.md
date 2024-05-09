@@ -1,2 +1,2 @@
 # Odin-Recipes
-Basic Website
+Simple Website created in HTML with some basic CSS
