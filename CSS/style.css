@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+    font-size:large
+}
+body {
+    font-family: monospace;
+    background-color:black; 
+    margin: 40px;
+    color: white;
+}
+.box {
+    width: 400px;
+    height: 250px;
+    float: left;
+    padding: 0px 40px 80px 0px;
+}
+.images {
+    width: 400px; 
+    height: 250px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 300px;
+}    
+.recipe-grid {
+        display: grid;
+        grid-template-columns: auto auto; /* Creates two columns */
+        gap: 2px;
+        border: 1px solid #ccc; /* Optional: Adds a border around the grid */
+        position: relative; /* Needed for the pseudo-element positioning */
+}     
+.recipe-grid::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 1px;
+        background-color: #000;
+}
+    
+    .ingredient,.method {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+}
+    
