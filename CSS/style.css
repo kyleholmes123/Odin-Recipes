@@ -53,3 +53,13 @@ body {
     display: grid;
     place-items: center;
 }
+
+.image-container {
+    width: 100%;
+  }
+ 
+  @media (min-width: 600px) {
+   .column {
+      width: 50%;
+    }
+  } 
