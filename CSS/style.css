@@ -43,7 +43,7 @@ body {
         background-color: #000;
 }
     
-    .ingredient,.method {
+.ingredient,.method {
         border: 1px solid #ddd;
         padding: 10px;
         text-align: center;
