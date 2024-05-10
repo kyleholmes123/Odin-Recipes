@@ -28,7 +28,7 @@ body {
 }    
 .recipe-grid {
         display: grid;
-        grid-template-columns: auto auto; /* Creates two columns */
+        grid-template-columns: unset unset; /* Creates two columns */
         gap: 2px;
         border: 1px solid #ccc; /* Optional: Adds a border around the grid */
         position: relative; /* Needed for the pseudo-element positioning */
