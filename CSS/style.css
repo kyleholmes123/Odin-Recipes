@@ -52,14 +52,6 @@ body {
 .image-container {
     display: grid;
     place-items: center;
+    height: 50%;
+    width: 50%;
 }
-
-.image-container {
-    width: 100%;
-  }
- 
-  @media (min-width: 600px) {
-   .column {
-      width: 50%;
-    }
-  } 
