@@ -48,4 +48,9 @@ body {
         padding: 10px;
         text-align: center;
 }
-    
+
+.list-item {
+    border: 1px hidden; /* Adjust the border style as needed */
+    padding: 5px; /* Adds some space inside the border */
+    margin-bottom: 5px; /* Adds space below each item for better separation */
+}
