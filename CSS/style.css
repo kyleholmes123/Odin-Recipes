@@ -2,12 +2,14 @@ header {
     text-align: center;
     font-size: large;
 }
+
 body {
     font-family: monospace;
     background-color: black;
     margin: 40px;
     color: white;
 }
+
 .box,
 .images {
     width: 100%;
@@ -15,7 +17,12 @@ body {
     overflow: hidden;
     margin-top: 20px;
     margin-bottom: 20px;
-} 
+}
+
+div {
+    border: 1px hidden;
+    padding: 8px;
+}
 
 ul {
     list-style-type: none;
@@ -27,7 +34,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 nav ul {
     list-style-type: none;
@@ -61,37 +68,32 @@ nav .active {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 300px;
-}    
-.recipe-grid {
-    display: grid;
-    grid-template-columns: unset unset; /* Creates two columns */
-    gap: 2px;
-    position: relative; /* Needed for the pseudo-element positioning */
-}     
-.recipe-grid::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 1px;
-    background-color: #000;
 }
-    
-.ingredient,
-.method {
-    padding: 10px;
+
+li {
+    text-indent: 50px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: auto;
-    width: 100%;
+    letter-spacing: 3px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .list-item {
-    border: 1px hidden; /* Adjust the border style as needed */
-    padding: 5px; /* Adds some space inside the border */
-    margin-bottom: 5px; /* Adds space below each item for better separation */
+    border: 1px hidden;
+    /* Adjust the border style as needed */
+    padding: 5px;
+    /* Adds some space inside the border */
+    margin-bottom: 5px;
+    /* Adds space below each item for better separation */
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
 }
 
 .image-container {
