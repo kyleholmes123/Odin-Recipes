@@ -27,20 +27,13 @@ a {
     display: flex;
     padding: o;
     margin: 0;
-    gap: 16px;
+    gap: 10px;
 }
 
 .header-nav {
     display: flex;
     justify-content: center;
-    padding: 8px;
-}
-
-.header-nav ul.links {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
+    padding: 5px;
 }
 
 header {
@@ -60,7 +53,7 @@ header {
 
 div {
     border: 1px hidden;
-    padding: 8px;
+    padding: 5px;
 }
 
 ul {
@@ -76,9 +69,8 @@ ul {
 }
 
 li {
-    text-indent: 50px;
+    text-indent: 15px;
     text-align: center;
-    letter-spacing: 3px;
 }
 
 h1 {
